@@ -24,7 +24,7 @@
 .btn-banner-two {
   background: #578dc4;
   border-radius: 50px;
-  width: 153px;
+  width: 165px;
   height: 40px;
   font-family: "Raleway";
   font-size: 14px;
@@ -33,6 +33,12 @@
   cursor: pointer;
   font-weight: 800;
   color: white;
+  transition: all .2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.btn-banner-two:hover{
+  background: white;
+  color: #578dc4;
 }
 
 /* TYPO */

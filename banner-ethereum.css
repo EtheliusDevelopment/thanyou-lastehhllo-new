@@ -2,18 +2,15 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.ethereum-box{
+.ethereum-box {
   width: 40%;
-  
 }
 
 .blockchain_div {
-  
 }
 
 .text-box-ethereum {
   width: 100%;
-  
 }
 
 .text-box-flex-ethereum {
@@ -52,4 +49,18 @@
 
 .img_stc {
   width: 30%;
+}
+
+@media screen and (max-width: 770px) {
+  .ethereum-box {
+    width: 100%;
+  }
+
+  .stc_div {
+    flex-direction: column;
+  }
+
+  .img_stc {
+    width: 50%;
+  }
 }

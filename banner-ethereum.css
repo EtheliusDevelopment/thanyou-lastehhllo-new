@@ -1,0 +1,55 @@
+.banner-ethereum {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ethereum-box{
+  width: 40%;
+  
+}
+
+.blockchain_div {
+  
+}
+
+.text-box-ethereum {
+  width: 100%;
+  
+}
+
+.text-box-flex-ethereum {
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+}
+
+.stc_div {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-banner-ethereum {
+  background: #578dc4;
+  border-radius: 50px;
+  width: 153px;
+  height: 40px;
+  font-family: "Raleway";
+  font-size: 14px;
+  line-height: 16px;
+  border: unset;
+  cursor: pointer;
+  font-weight: 800;
+  color: white;
+  transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.btn-banner-ethereum:hover {
+  background: white;
+  color: #578dc4;
+}
+
+.img_stc {
+  width: 30%;
+}
